@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/Home', (req, res) => {
-    res.send('and another hello')
+    res.send('and another hello from home page.... well sever')
 })
 
 app.listen(port, () => {
